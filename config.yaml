@@ -1,0 +1,20 @@
+model:
+  backend: "gemini"
+  name: "gemini-2.5-flash"
+  temperature: 0.7
+  max_tokens: 1500
+
+tools:
+  trello:
+    enabled: true
+    list_id: "YOUR_TRELLO_LIST_ID" # e.g., "6123456789abcdef01234567"
+  browser:
+    enabled: true
+  google_drive:
+    enabled: false # Not yet implemented
+  github:
+    enabled: true
+
+logging:
+  path: "./logs/chat_logs.jsonl"
+  capture_feedback: true

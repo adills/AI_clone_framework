@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+google-generativeai = "*"
+pyyaml = "*"
+python-dotenv = "*"
+slack-bolt = "*"
+google-search-results = "*"
+py-trello = "*"
+pygithub = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.13"

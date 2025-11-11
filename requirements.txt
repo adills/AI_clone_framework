@@ -1,0 +1,7 @@
+google-generativeai
+PyYAML
+python-dotenv
+slack_bolt
+google-search-results
+py-trello
+PyGithub
